@@ -36,3 +36,16 @@ Execute in your workspace
 ```bash
 colcon build
 ```
+
+# Adjustments
+## Camera
+When install has been succesfull, run following commands to check and alter (if required) the following commands:
+```bash
+sudo apt install v4l-utils
+v4l2-ctl-list-devices
+```
+Modify device ID in video_publisher.py of the video package (line 31, currently set to 2)
+
+```bash 
+colcon build    # to rebuild package if device ID has been changed
+```
