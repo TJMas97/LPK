@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'sick_scan_xd'}
+[0.000343] (libsick_ldmrs) JobQueued: {'identifier': 'libsick_ldmrs', 'dependencies': OrderedDict()}
+[0.000362] (libsick_ldmrs) JobStarted: {'identifier': 'libsick_ldmrs'}
+[0.007393] (libsick_ldmrs) JobProgress: {'identifier': 'libsick_ldmrs', 'progress': 'cmake'}
+[0.007582] (libsick_ldmrs) Command: {'cmd': ['/usr/bin/cmake', '/home/thijs/sick_scan_ws/src/libsick_ldmrs', '-DCMAKE_INSTALL_PREFIX=/home/thijs/sick_scan_ws/src/install/libsick_ldmrs'], 'cwd': '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thijs'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thijs'), ('OLDPWD', '/home/thijs/sick_scan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thijs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/2boots4moreos:@/tmp/.ICE-unix/1287,unix/2boots4moreos:/tmp/.ICE-unix/1287'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5016ae29_caaf_4b31_b3ac_34b0e60ed9e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.FHZ7W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038522] (libsick_ldmrs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.039060] (libsick_ldmrs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.039403] (libsick_ldmrs) StderrLine: {'line': b'  CMake.\n'}
+[0.039673] (libsick_ldmrs) StderrLine: {'line': b'\n'}
+[0.039914] (libsick_ldmrs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.040157] (libsick_ldmrs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.040453] (libsick_ldmrs) StderrLine: {'line': b'\n'}
+[0.040693] (libsick_ldmrs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099479] (-) TimerEvent: {}
+[0.199773] (-) TimerEvent: {}
+[0.231957] (libsick_ldmrs) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.299995] (-) TimerEvent: {}
+[0.387052] (libsick_ldmrs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.397461] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400071] (-) TimerEvent: {}
+[0.462672] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470185] (libsick_ldmrs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.470598] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.471312] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.474891] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500168] (-) TimerEvent: {}
+[0.545886] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.554098] (libsick_ldmrs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.554492] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.554965] (libsick_ldmrs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.557926] (libsick_ldmrs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.573478] (libsick_ldmrs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.574118] (libsick_ldmrs) StdoutLine: {'line': b'-- Build files have been written to: /home/thijs/sick_scan_ws/src/build/libsick_ldmrs\n'}
+[0.576765] (libsick_ldmrs) CommandEnded: {'returncode': 0}
+[0.577145] (libsick_ldmrs) JobProgress: {'identifier': 'libsick_ldmrs', 'progress': 'build'}
+[0.578114] (libsick_ldmrs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs', '--', '-j12', '-l12'], 'cwd': '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thijs'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thijs'), ('OLDPWD', '/home/thijs/sick_scan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thijs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/2boots4moreos:@/tmp/.ICE-unix/1287,unix/2boots4moreos:/tmp/.ICE-unix/1287'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5016ae29_caaf_4b31_b3ac_34b0e60ed9e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.FHZ7W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.600292] (-) TimerEvent: {}
+[0.623380] (libsick_ldmrs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.o\x1b[0m\n'}
+[0.623663] (libsick_ldmrs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o\x1b[0m\n'}
+[0.623798] (libsick_ldmrs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o\x1b[0m\n'}
+[0.623936] (libsick_ldmrs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o\x1b[0m\n'}
+[0.624036] (libsick_ldmrs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.o\x1b[0m\n'}
+[0.624163] (libsick_ldmrs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o\x1b[0m\n'}
+[0.624292] (libsick_ldmrs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.o\x1b[0m\n'}
+[0.624397] (libsick_ldmrs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o\x1b[0m\n'}
+[0.624521] (libsick_ldmrs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.o\x1b[0m\n'}
+[0.624675] (libsick_ldmrs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o\x1b[0m\n'}
+[0.624808] (libsick_ldmrs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.o\x1b[0m\n'}
+[0.624974] (libsick_ldmrs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.o\x1b[0m\n'}
+[0.701329] (-) TimerEvent: {}
+[0.805273] (-) TimerEvent: {}
+[0.905629] (-) TimerEvent: {}
+[0.972532] (libsick_ldmrs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o\x1b[0m\n'}
+[0.976354] (libsick_ldmrs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o\x1b[0m\n'}
+[1.006886] (-) TimerEvent: {}
+[1.107270] (-) TimerEvent: {}
+[1.207643] (-) TimerEvent: {}
+[1.287133] (libsick_ldmrs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.o\x1b[0m\n'}
+[1.307755] (-) TimerEvent: {}
+[1.393493] (libsick_ldmrs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o\x1b[0m\n'}
+[1.407861] (-) TimerEvent: {}
+[1.422703] (libsick_ldmrs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o\x1b[0m\n'}
+[1.423037] (libsick_ldmrs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o\x1b[0m\n'}
+[1.434233] (libsick_ldmrs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o\x1b[0m\n'}
+[1.509051] (-) TimerEvent: {}
+[1.568279] (libsick_ldmrs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o\x1b[0m\n'}
+[1.583856] (libsick_ldmrs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.o\x1b[0m\n'}
+[1.609159] (-) TimerEvent: {}
+[1.609795] (libsick_ldmrs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.o\x1b[0m\n'}
+[1.652766] (libsick_ldmrs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o\x1b[0m\n'}
+[1.670942] (libsick_ldmrs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o\x1b[0m\n'}
+[1.709275] (-) TimerEvent: {}
+[1.768351] (libsick_ldmrs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o\x1b[0m\n'}
+[1.782682] (libsick_ldmrs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.o\x1b[0m\n'}
+[1.809375] (-) TimerEvent: {}
+[1.844936] (libsick_ldmrs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.o\x1b[0m\n'}
+[1.896963] (libsick_ldmrs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o\x1b[0m\n'}
+[1.909479] (-) TimerEvent: {}
+[1.990505] (libsick_ldmrs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.o\x1b[0m\n'}
+[1.993263] (libsick_ldmrs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.o\x1b[0m\n'}
+[2.009583] (-) TimerEvent: {}
+[2.109912] (-) TimerEvent: {}
+[2.210257] (-) TimerEvent: {}
+[2.310612] (-) TimerEvent: {}
+[2.317790] (libsick_ldmrs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.o\x1b[0m\n'}
+[2.387284] (libsick_ldmrs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o\x1b[0m\n'}
+[2.410716] (-) TimerEvent: {}
+[2.499455] (libsick_ldmrs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.o\x1b[0m\n'}
+[2.510819] (-) TimerEvent: {}
+[2.552460] (libsick_ldmrs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.o\x1b[0m\n'}
+[2.582058] (libsick_ldmrs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o\x1b[0m\n'}
+[2.610931] (-) TimerEvent: {}
+[2.631456] (libsick_ldmrs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o\x1b[0m\n'}
+[2.711051] (-) TimerEvent: {}
+[2.745891] (libsick_ldmrs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.o\x1b[0m\n'}
+[2.779231] (libsick_ldmrs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.o\x1b[0m\n'}
+[2.779653] (libsick_ldmrs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.o\x1b[0m\n'}
+[2.811180] (-) TimerEvent: {}
+[2.912372] (-) TimerEvent: {}
+[2.937829] (libsick_ldmrs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.o\x1b[0m\n'}
+[2.946507] (libsick_ldmrs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o\x1b[0m\n'}
+[2.972290] (libsick_ldmrs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.o\x1b[0m\n'}
+[2.990437] (libsick_ldmrs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.o\x1b[0m\n'}
+[2.995289] (libsick_ldmrs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o\x1b[0m\n'}
+[3.012478] (-) TimerEvent: {}
+[3.112769] (-) TimerEvent: {}
+[3.137068] (libsick_ldmrs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.o\x1b[0m\n'}
+[3.184271] (libsick_ldmrs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o\x1b[0m\n'}
+[3.212874] (-) TimerEvent: {}
+[3.291915] (libsick_ldmrs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o\x1b[0m\n'}
+[3.316275] (-) TimerEvent: {}
+[3.341840] (libsick_ldmrs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o\x1b[0m\n'}
+[3.362508] (libsick_ldmrs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.o\x1b[0m\n'}
+[3.374392] (libsick_ldmrs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.o\x1b[0m\n'}
+[3.401974] (libsick_ldmrs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.o\x1b[0m\n'}
+[3.409070] (libsick_ldmrs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o\x1b[0m\n'}
+[3.416376] (-) TimerEvent: {}
+[3.455392] (libsick_ldmrs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o\x1b[0m\n'}
+[3.470414] (libsick_ldmrs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o\x1b[0m\n'}
+[3.470729] (libsick_ldmrs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.o\x1b[0m\n'}
+[3.516476] (-) TimerEvent: {}
+[3.618459] (libsick_ldmrs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o\x1b[0m\n'}
+[3.618698] (-) TimerEvent: {}
+[3.718920] (-) TimerEvent: {}
+[3.755164] (libsick_ldmrs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.o\x1b[0m\n'}
+[3.792636] (libsick_ldmrs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o\x1b[0m\n'}
+[3.819026] (-) TimerEvent: {}
+[3.919340] (-) TimerEvent: {}
+[3.972858] (libsick_ldmrs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.o\x1b[0m\n'}
+[3.974141] (libsick_ldmrs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.o\x1b[0m\n'}
+[4.007393] (libsick_ldmrs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o\x1b[0m\n'}
+[4.019437] (-) TimerEvent: {}
+[4.021049] (libsick_ldmrs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.o\x1b[0m\n'}
+[4.082319] (libsick_ldmrs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.o\x1b[0m\n'}
+[4.112199] (libsick_ldmrs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.o\x1b[0m\n'}
+[4.119552] (-) TimerEvent: {}
+[4.122756] (libsick_ldmrs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.o\x1b[0m\n'}
+[4.223296] (-) TimerEvent: {}
+[4.258672] (libsick_ldmrs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.o\x1b[0m\n'}
+[4.307530] (libsick_ldmrs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o\x1b[0m\n'}
+[4.327276] (-) TimerEvent: {}
+[4.358258] (libsick_ldmrs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.o\x1b[0m\n'}
+[4.399877] (libsick_ldmrs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.o\x1b[0m\n'}
+[4.408928] (libsick_ldmrs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.o\x1b[0m\n'}
+[4.427388] (-) TimerEvent: {}
+[4.527721] (-) TimerEvent: {}
+[4.551333] (libsick_ldmrs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o\x1b[0m\n'}
+[4.556681] (libsick_ldmrs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o\x1b[0m\n'}
+[4.627858] (-) TimerEvent: {}
+[4.642528] (libsick_ldmrs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.o\x1b[0m\n'}
+[4.664806] (libsick_ldmrs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o\x1b[0m\n'}
+[4.727965] (-) TimerEvent: {}
+[4.737664] (libsick_ldmrs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.o\x1b[0m\n'}
+[4.814207] (libsick_ldmrs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o\x1b[0m\n'}
+[4.828093] (-) TimerEvent: {}
+[4.828579] (libsick_ldmrs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o\x1b[0m\n'}
+[4.928193] (-) TimerEvent: {}
+[4.973380] (libsick_ldmrs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.o\x1b[0m\n'}
+[5.017299] (libsick_ldmrs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.o\x1b[0m\n'}
+[5.028275] (-) TimerEvent: {}
+[5.042116] (libsick_ldmrs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.o\x1b[0m\n'}
+[5.095108] (libsick_ldmrs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o\x1b[0m\n'}
+[5.128411] (-) TimerEvent: {}
+[5.164908] (libsick_ldmrs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o\x1b[0m\n'}
+[5.228507] (-) TimerEvent: {}
+[5.249520] (libsick_ldmrs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.o\x1b[0m\n'}
+[5.253399] (libsick_ldmrs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o\x1b[0m\n'}
+[5.260633] (libsick_ldmrs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.o\x1b[0m\n'}
+[5.290085] (libsick_ldmrs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o\x1b[0m\n'}
+[5.321596] (libsick_ldmrs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o\x1b[0m\n'}
+[5.328608] (-) TimerEvent: {}
+[5.334561] (libsick_ldmrs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o\x1b[0m\n'}
+[5.428719] (-) TimerEvent: {}
+[5.447722] (libsick_ldmrs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o\x1b[0m\n'}
+[5.528826] (-) TimerEvent: {}
+[5.571492] (libsick_ldmrs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.o\x1b[0m\n'}
+[5.608227] (libsick_ldmrs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o\x1b[0m\n'}
+[5.615207] (libsick_ldmrs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.o\x1b[0m\n'}
+[5.617865] (libsick_ldmrs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.o\x1b[0m\n'}
+[5.623593] (libsick_ldmrs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.o\x1b[0m\n'}
+[5.628961] (-) TimerEvent: {}
+[5.635043] (libsick_ldmrs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o\x1b[0m\n'}
+[5.727313] (libsick_ldmrs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o\x1b[0m\n'}
+[5.729050] (-) TimerEvent: {}
+[5.784925] (libsick_ldmrs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/manager.cpp.o\x1b[0m\n'}
+[5.829182] (-) TimerEvent: {}
+[5.855278] (libsick_ldmrs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o\x1b[0m\n'}
+[5.862763] (libsick_ldmrs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object src/CMakeFiles/sick_ldmrs.dir/main.cpp.o\x1b[0m\n'}
+[5.929279] (-) TimerEvent: {}
+[5.930379] (libsick_ldmrs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o\x1b[0m\n'}
+[5.932578] (libsick_ldmrs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o\x1b[0m\n'}
+[5.955372] (libsick_ldmrs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object src/CMakeFiles/LDMRS_Example.dir/main.cpp.o\x1b[0m\n'}
+[6.029403] (-) TimerEvent: {}
+[6.129660] (-) TimerEvent: {}
+[6.229947] (-) TimerEvent: {}
+[6.330229] (-) TimerEvent: {}
+[6.430504] (-) TimerEvent: {}
+[6.502490] (libsick_ldmrs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX shared library libsick_ldmrs.so\x1b[0m\n'}
+[6.530612] (-) TimerEvent: {}
+[6.600309] (libsick_ldmrs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable LDMRS_Example\x1b[0m\n'}
+[6.630719] (-) TimerEvent: {}
+[6.680235] (libsick_ldmrs) StdoutLine: {'line': b'[100%] Built target sick_ldmrs\n'}
+[6.730818] (-) TimerEvent: {}
+[6.754086] (libsick_ldmrs) StdoutLine: {'line': b'[100%] Built target LDMRS_Example\n'}
+[6.764993] (libsick_ldmrs) CommandEnded: {'returncode': 0}
+[6.782833] (libsick_ldmrs) JobProgress: {'identifier': 'libsick_ldmrs', 'progress': 'install'}
+[6.790574] (libsick_ldmrs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs'], 'cwd': '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thijs'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thijs'), ('OLDPWD', '/home/thijs/sick_scan_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thijs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/2boots4moreos:@/tmp/.ICE-unix/1287,unix/2boots4moreos:/tmp/.ICE-unix/1287'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5016ae29_caaf_4b31_b3ac_34b0e60ed9e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.FHZ7W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.796594] (libsick_ldmrs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.796791] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/cmake/SickLDMRS/SickLDMRSConfig.cmake\n'}
+[6.796966] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/cmake/SickLDMRS/SickLDMRSConfigVersion.cmake\n'}
+[6.797054] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/cmake/SickLDMRS/SickLDMRSTargets.cmake\n'}
+[6.797140] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/cmake/SickLDMRS/SickLDMRSTargets-noconfig.cmake\n'}
+[6.797378] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/sick_ldmrs/package.xml\n'}
+[6.797743] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/bin/LDMRS_Example\n'}
+[6.799111] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/libsick_ldmrs.so.0.1.0\n'}
+[6.800538] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/libsick_ldmrs.so.0\n'}
+[6.800704] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/libsick_ldmrs.so\n'}
+[6.800776] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/.\n'}
+[6.800908] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./interfaces\n'}
+[6.800972] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./interfaces/file.hpp\n'}
+[6.801027] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./interfaces/tcp.hpp\n'}
+[6.801117] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes\n'}
+[6.801186] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Polygon2D.hpp\n'}
+[6.801261] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Box2D.hpp\n'}
+[6.801339] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Measurement.hpp\n'}
+[6.801403] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Fields.hpp\n'}
+[6.801524] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Polygon3D.hpp\n'}
+[6.801619] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Point2D.hpp\n'}
+[6.801722] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/EvalCase.hpp\n'}
+[6.801812] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/EvalCases.hpp\n'}
+[6.801915] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/EvalCaseResult.hpp\n'}
+[6.802011] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Msg.hpp\n'}
+[6.802115] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Point3D.hpp\n'}
+[6.802220] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/PositionWGS84.hpp\n'}
+[6.802450] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/EvalCaseResults.hpp\n'}
+[6.802546] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/ScanPoint.hpp\n'}
+[6.802650] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Trigger.hpp\n'}
+[6.802748] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/ScannerInfo.hpp\n'}
+[6.802855] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/SensorStateInfo.hpp\n'}
+[6.802953] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Object.hpp\n'}
+[6.803071] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/FieldParameter.hpp\n'}
+[6.803173] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Circle2D.hpp\n'}
+[6.803281] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Position3D.hpp\n'}
+[6.803384] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/FieldDescription.hpp\n'}
+[6.803487] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Line2D.hpp\n'}
+[6.803592] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Scan.hpp\n'}
+[6.803699] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./datatypes/Ellipse2D.hpp\n'}
+[6.803804] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./devices\n'}
+[6.803879] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./devices/LD_MRS.hpp\n'}
+[6.803977] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./devices/LuxBase.hpp\n'}
+[6.804086] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./devices/BasicDevice.hpp\n'}
+[6.804183] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./BasicDatatypes.hpp\n'}
+[6.804284] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./sopas\n'}
+[6.804367] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./sopas/LdmrsSopasLayer.hpp\n'}
+[6.804513] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./sopas/colab.hpp\n'}
+[6.804608] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./sopas/colaa.hpp\n'}
+[6.804715] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./sopas/SopasBase.hpp\n'}
+[6.804790] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./manager.hpp\n'}
+[6.804863] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application\n'}
+[6.804937] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/LdmrsNtpTimeApp.hpp\n'}
+[6.805032] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/LdmrsApp.hpp\n'}
+[6.805128] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/LdmrsScanpointCoordinateApp.hpp\n'}
+[6.805250] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/LdmrsFieldApp.hpp\n'}
+[6.805391] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/BasicApplication.hpp\n'}
+[6.805485] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./application/LdmrsSectorChangeApp.hpp\n'}
+[6.805579] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools\n'}
+[6.805713] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/WatchdogTimer.hpp\n'}
+[6.805792] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/BasicDataBuffer.hpp\n'}
+[6.805868] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/SickThread.hpp\n'}
+[6.805942] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/Mutex.hpp\n'}
+[6.806008] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/errorhandler.hpp\n'}
+[6.806093] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/MathToolbox.hpp\n'}
+[6.806185] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/Time.hpp\n'}
+[6.806338] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/Timer.hpp\n'}
+[6.806430] (libsick_ldmrs) StdoutLine: {'line': b'-- Installing: /home/thijs/sick_scan_ws/src/install/libsick_ldmrs/include/sick_ldmrs/./tools/toolbox.hpp\n'}
+[6.807919] (libsick_ldmrs) CommandEnded: {'returncode': 0}
+[6.831036] (-) TimerEvent: {}
+[6.847079] (libsick_ldmrs) JobEnded: {'identifier': 'libsick_ldmrs', 'rc': 0}
+[6.847360] (-) EventReactorShutdown: {}

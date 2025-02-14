@@ -1,0 +1,6 @@
+Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thijs/sick_scan_ws/src/libsick_ldmrs -DCMAKE_INSTALL_PREFIX=/home/thijs/sick_scan_ws/src/install/libsick_ldmrs
+Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thijs/sick_scan_ws/src/libsick_ldmrs -DCMAKE_INSTALL_PREFIX=/home/thijs/sick_scan_ws/src/install/libsick_ldmrs
+Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thijs/sick_scan_ws/src/build/libsick_ldmrs -- -j12 -l12
+Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thijs/sick_scan_ws/src/build/libsick_ldmrs -- -j12 -l12
+Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thijs/sick_scan_ws/src/build/libsick_ldmrs
+Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thijs/sick_scan_ws/src/build/libsick_ldmrs

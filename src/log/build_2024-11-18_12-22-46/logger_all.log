@@ -1,0 +1,141 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'libsick_ldmrs', '--event-handler', 'console_direct+']
+[0.135s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['libsick_ldmrs'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f38519b2ad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3851b3b010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3851b3b010>>, mixin_verb=('build',))
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thijs/sick_scan_ws/src'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(libsick_ldmrs) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'libsick_ldmrs' with type 'ros.cmake' and name 'libsick_ldmrs'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(sick_scan_xd) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'sick_scan_xd' with type 'ros.ament_cmake' and name 'sick_scan_xd'
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.483s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sick_scan_xd' in 'sick_scan_xd'
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.487s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'libsick_ldmrs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'libsick_ldmrs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs', 'merge_install': False, 'path': '/home/thijs/sick_scan_ws/src/libsick_ldmrs', 'symlink_install': False, 'test_result_base': None}
+[0.522s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.523s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/thijs/sick_scan_ws/src/libsick_ldmrs' with build type 'cmake'
+[0.523s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thijs/sick_scan_ws/src/libsick_ldmrs'
+[0.526s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thijs/sick_scan_ws/src/libsick_ldmrs -DCMAKE_INSTALL_PREFIX=/home/thijs/sick_scan_ws/src/install/libsick_ldmrs
+[1.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thijs/sick_scan_ws/src/libsick_ldmrs -DCMAKE_INSTALL_PREFIX=/home/thijs/sick_scan_ws/src/install/libsick_ldmrs
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thijs/sick_scan_ws/src/build/libsick_ldmrs -- -j12 -l12
+[7.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thijs/sick_scan_ws/src/build/libsick_ldmrs -- -j12 -l12
+[7.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thijs/sick_scan_ws/src/build/libsick_ldmrs
+[7.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thijs/sick_scan_ws/src/build/libsick_ldmrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thijs/sick_scan_ws/src/build/libsick_ldmrs
+[7.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'pkg_config_path')
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path.ps1'
+[7.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path.dsv'
+[7.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path.sh'
+[7.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'pkg_config_path_multiarch')
+[7.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path_multiarch.ps1'
+[7.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path_multiarch.dsv'
+[7.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pkg_config_path_multiarch.sh'
+[7.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libsick_ldmrs)
+[7.360s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs' for CMake module files
+[7.360s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs' for CMake config files
+[7.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'cmake_prefix_path')
+[7.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/cmake_prefix_path.ps1'
+[7.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/cmake_prefix_path.dsv'
+[7.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/cmake_prefix_path.sh'
+[7.361s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib'
+[7.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'ld_library_path_lib')
+[7.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/ld_library_path_lib.ps1'
+[7.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/ld_library_path_lib.dsv'
+[7.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/ld_library_path_lib.sh'
+[7.362s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/bin'
+[7.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'path')
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/path.ps1'
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/path.dsv'
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/path.sh'
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/pkgconfig/libsick_ldmrs.pc'
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/lib/python3.10/site-packages'
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/bin'
+[7.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('libsick_ldmrs', 'pythonscriptspath')
+[7.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pythonscriptspath.ps1'
+[7.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pythonscriptspath.dsv'
+[7.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/hook/pythonscriptspath.sh'
+[7.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/package.ps1'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/package.dsv'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/package.sh'
+[7.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/package.bash'
+[7.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/libsick_ldmrs/package.zsh'
+[7.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thijs/sick_scan_ws/src/install/libsick_ldmrs/share/colcon-core/packages/libsick_ldmrs)
+[7.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.370s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.375s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.391s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thijs/sick_scan_ws/src/install/local_setup.ps1'
+[7.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thijs/sick_scan_ws/src/install/_local_setup_util_ps1.py'
+[7.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thijs/sick_scan_ws/src/install/setup.ps1'
+[7.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thijs/sick_scan_ws/src/install/local_setup.sh'
+[7.396s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thijs/sick_scan_ws/src/install/_local_setup_util_sh.py'
+[7.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thijs/sick_scan_ws/src/install/setup.sh'
+[7.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thijs/sick_scan_ws/src/install/local_setup.bash'
+[7.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thijs/sick_scan_ws/src/install/setup.bash'
+[7.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thijs/sick_scan_ws/src/install/local_setup.zsh'
+[7.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thijs/sick_scan_ws/src/install/setup.zsh'

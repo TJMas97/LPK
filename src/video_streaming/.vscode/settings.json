@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/frenk/ros2_ws/install/video_streaming/lib/python3.10/site-packages",
+        "/home/frenk/ros2_ws/install/umrr_ros2_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_uss_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_radar_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_premium_radar_sample_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_general_purpose_radar_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/frenk/ros2_ws/install/video_streaming/lib/python3.10/site-packages",
+        "/home/frenk/ros2_ws/install/umrr_ros2_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_uss_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_radar_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_premium_radar_sample_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/off_highway_general_purpose_radar_msgs/local/lib/python3.10/dist-packages",
+        "/home/frenk/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

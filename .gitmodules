@@ -1,0 +1,9 @@
+[submodule "src/libsick_ldmrs"]
+	path = src/libsick_ldmrs
+	url = https://github.com/SICKAG/libsick_ldmrs.git
+[submodule "src/off_highway_sensor_drivers"]
+	path = src/off_highway_sensor_drivers
+	url = https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+[submodule "src/sick_scan_xd"]
+	path = src/sick_scan_xd
+	url = https://github.com/SICKAG/sick_scan_xd.git
