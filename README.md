@@ -9,5 +9,30 @@ Using existing drivers from sensor manufacturers, together with the video packag
 - OpenCV (version 4.10)
 - PCAN-View for Linux installed with corresponding drivers (used for sending CAN message to wake Bosch Radar, alternatively another method to send CAN message is also possible)
 
-# Install
-To install this repo, create a new folder (e.g. lpk_ws), cd into folder and clone this repository. Then colcon build
+# Installation
+
+## Clone repository with correct submodules:
+
+```bash
+git clone --recurse-submodules https://github.com/TJMas97/lpk.git
+```
+
+## Move to workspace
+
+```bash
+cd ./lpk
+```
+
+## Installation of dependencies
+
+```bash
+rosdep update && rosdep install --from-paths src --ignore-src -r -y
+```
+
+## Compile
+
+Execute in your workspace
+
+```bash
+colcon build
+```
